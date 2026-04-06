@@ -1,16 +1,11 @@
 {
   "name": "cc-cli-cn",
-  "version": "1.0.0",
-  "description": "Claude Code 命令行中文插件 — 双语/中文/英文三模式工具提示",
-  "main": "bin/install.js",
+  "version": "1.1.0",
+  "description": "Claude Code 命令行中文插件 — 双语/中文/英文三模式工具提示，全平台免额外依赖",
+  "main": "tool-tips-post.js",
   "bin": {
     "cc-cli-cn-install": "bin/install.js",
     "cc-cli-cn-mode": "bin/mode.js"
-  },
-  "scripts": {
-    "install-bilingual": "node bin/install.js bilingual",
-    "install-cn": "node bin/install.js cn",
-    "uninstall": "node bin/install.js en"
   },
   "keywords": ["claude", "claude-code", "hooks", "chinese", "bilingual"],
   "author": "Zeno-wistom",
@@ -20,7 +15,7 @@
     "url": "https://github.com/Zeno-wistom/cc-cli-cn.git"
   },
   "files": [
-    "tool-tips-post.sh",
+    "tool-tips-post.js",
     "bin/",
     "README.md",
     "LICENSE"
